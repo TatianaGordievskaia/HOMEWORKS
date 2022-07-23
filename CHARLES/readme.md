@@ -9,6 +9,8 @@ Protocol: http
 IP: 162.55.220.72
 Port: 5005
 ```
+![Filtr](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Screenshots/EX0.png)
+
 #### 1. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 
@@ -62,6 +64,7 @@ response:
 ```
 #### 4. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 -Сделать через Charles так, чтобы сервер вернул 500 код.
+
 -Сделать через Charles так, чтобы сервер вернул 405 код.**
 
 ```sql
@@ -87,7 +90,9 @@ response:
 
 #### 5. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
+ 
  ⁃ Подменить salary в request
+ 
  ⁃ Подменить (salary * 2) в response***
 
 ```sql
@@ -105,6 +110,7 @@ response:
 
 #### 6. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
+ 
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response.***
 
 ```sql
