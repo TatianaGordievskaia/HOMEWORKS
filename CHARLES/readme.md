@@ -27,6 +27,9 @@ response:
 ]
 ```
 
+![break](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/CHARLES/Screenshots/E%D1%85_1.png)
+
+
 #### 2. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
  
