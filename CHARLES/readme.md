@@ -48,6 +48,9 @@ response:
                      'u_salary_1_5_year': salary * 4}}
 ```
 
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/CHARLES/Screenshots/E%D1%85_2.png)
+
+
 #### 3. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
  
