@@ -17,3 +17,16 @@ Exercise 3: Select all the different values from the Country column in the Custo
 ```sql
 SELECT DISTINCT Country FROM Customers;
 ```
+## SQL WHERE
+Exercise 1: Select all records where the City column has the value "Berlin".
+
+```sql
+SELECT * FROM Customers
+WHERE CITY = 'BERLIN';
+```
+Exercise 2: Use the NOT keyword to select all records where City is NOT "Berlin".
+
+```sql
+SELECT * FROM Customers 
+WHERE NOT CITY = 'BERLIN';
+```
