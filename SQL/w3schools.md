@@ -48,3 +48,10 @@ Exercise 5: Select all records where the City column has the value 'Berlin' or '
 SELECT * FROM Customers
 WHERE City = 'Berlin' OR City = 'London';
 ```
+## SQL ORDER BY
+Exercise 1: Select all records from the Customers table, sort the result alphabetically by the column City.
+
+```sql
+SELECT * FROM Customers
+ORDER BY City;
+```
