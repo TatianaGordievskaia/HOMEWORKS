@@ -299,8 +299,7 @@ Exercise 1: Insert the missing parts in the JOIN clause to join the two tables O
 ```sql
 SELECT *
 FROM Orders
-LEFT JOIN Customers
-ON Orders.CustomerID=Customers.CustomerID;
+LEFT JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ```
 
 Exercise 2: Choose the correct JOIN clause to select all records from the two tables where there is a match in both tables.
