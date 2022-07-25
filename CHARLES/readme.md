@@ -155,7 +155,7 @@ response:
 
 ### Ex 7. Все настройки Charles выгрузить в GitHub
 
-[Link Charles Settings](https://github.com/Gordmick/HOMEWORKS_Course_V_Ksendzov/blob/main/Charles/Gordmick_Charles_Settings.xml)
+[Link Charles Settings](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/CHARLES/Charles%20Settings.xml)
 
 
 
