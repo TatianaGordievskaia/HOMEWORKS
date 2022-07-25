@@ -30,3 +30,9 @@ Exercise 2: Use the NOT keyword to select all records where City is NOT "Berlin"
 SELECT * FROM Customers 
 WHERE NOT CITY = 'BERLIN';
 ```
+Exercise 3: Select all records where the CustomerID column has the value 32.
+
+```sql
+SELECT * FROM Customers
+WHERE CustomerID = 32;
+```
