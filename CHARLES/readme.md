@@ -98,6 +98,10 @@ response:
 ```
 
 
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/CHARLES/Screenshots/Ex_4.png)
+
+
+
 #### 5. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
  
