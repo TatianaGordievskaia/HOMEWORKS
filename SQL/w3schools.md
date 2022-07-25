@@ -36,3 +36,15 @@ Exercise 3: Select all records where the CustomerID column has the value 32.
 SELECT * FROM Customers
 WHERE CustomerID = 32;
 ```
+Exercise 4: Select all records where the City column has the value 'Berlin' and the PostalCode column has the value 12209.
+
+```sql
+SELECT * FROM Customers
+WHERE City = 'Berlin' AND POSTALCODE = 12209;
+```
+Exercise 5: Select all records where the City column has the value 'Berlin' or 'London'.
+
+```sql
+SELECT * FROM Customers
+WHERE City = 'Berlin' OR City = 'London';
+```
