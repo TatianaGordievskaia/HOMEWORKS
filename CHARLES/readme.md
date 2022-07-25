@@ -68,6 +68,10 @@ response:
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
 ```
+
+![break](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/CHARLES/Screenshots/E%D1%85_3.png)
+
+
 #### 4. Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 -Сделать через Charles так, чтобы сервер вернул 500 код.
 
