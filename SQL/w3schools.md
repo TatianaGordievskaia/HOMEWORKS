@@ -55,3 +55,17 @@ Exercise 1: Select all records from the Customers table, sort the result alphabe
 SELECT * FROM Customers
 ORDER BY City;
 ```
+Exercise 2: Select all records from the Customers table, sort the result reversed alphabetically by the column City.
+
+```sql
+SELECT * FROM Customers
+ORDER BY City DESC;
+```
+Exercise 3: Select all records from the Customers table, sort the result alphabetically, first by the column Country, then, by the column City.
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country, City;
+```
+
+## SQL INSERT
