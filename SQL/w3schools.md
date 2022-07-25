@@ -175,3 +175,120 @@ Exercise 5: Use an SQL function to calculate the sum of all the Price column val
 SELECT SUM(Price)
 FROM Products;
 ```
+
+## SQL LIKE
+Exercise 1: Select all records where the value of the City column starts with the letter "a".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE 'a%';
+```
+
+Exercise 2: Select all records where the value of the City column ends with the letter "a".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '%a';
+```
+
+Exercise 3: Select all records where the value of the City column contains the letter "a".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '%a%';
+```
+
+Exercise 4: Select all records where the value of the City column starts with letter "a" and ends with the letter "b".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE 'a%b';
+```
+
+Exercise 5: Select all records where the value of the City column does NOT start with the letter "a".
+
+```sql
+SELECT * FROM Customers
+WHERE City NOT LIKE 'a%';
+```
+
+## SQL WILDCARDS
+Exercise 1: Select all records where the second letter of the City is an "a".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '_a%';
+```
+
+Exercise 2: Select all records where the first letter of the City is an "a" or a "c" or an "s".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '[acs]%';
+```
+
+Exercise 3: Select all records where the first letter of the City starts with anything from an "a" to an "f".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '[a-f]%';
+```
+
+Exercise 4: Select all records where the first letter of the City is NOT an "a" or a "c" or an "f".
+
+```sql
+SELECT * FROM Customers
+WHERE City LIKE '[!acf]%';
+```
+
+## SQL IN
+Exercise 1: Use the IN operator to select all the records where Country is either "Norway" or "France".
+
+```sql
+SELECT * FROM Customers
+WHERE Country IN ('Norway', 'France');
+```
+
+Exercise 2: Use the IN operator to select all the records where Country is NOT "Norway" and NOT "France".
+
+```sql
+SELECT * FROM Customers
+WHERE Country NOT IN ('Norway', 'France');
+```
+
+## SQL BETWEEN
+Exercise 1: Use the BETWEEN operator to select all the records where the value of the Price column is between 10 and 20.
+
+```sql
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+```
+
+Exercise 2: Use the BETWEEN operator to select all the records where the value of the Price column is NOT between 10 and 20.
+
+```sql
+SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;
+```
+
+Exercise 3: Use the BETWEEN operator to select all the records where the value of the ProductName column is alphabetically between 'Geitost' and 'Pavlova'.
+
+```sql
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Geitost' AND 'Pavlova';
+```
+
+## SQL ALIAS
+Exercise 1: When displaying the Customers table, make an ALIAS of the PostalCode column, the column should be called Pno instead.
+
+```sql
+SELECT CustomerName, Address, PostalCode AS Pno
+FROM Customers;
+```
+
+Exercise 2: When displaying the Customers table, refer to the table as Consumers instead of Customers.
+
+```sql
+SELECT *
+FROM Customers AS Consumers;
+```
