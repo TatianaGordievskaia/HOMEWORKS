@@ -51,6 +51,12 @@ WHERE Laptop.hd >= 10;
 ### Задание: 8
 Найдите производителя, выпускающего ПК, но не ПК-блокноты.
 ```sql
+SELECT maker
+FROM Product
+WHERE  type='PC' AND maker NOT IN (SELECT maker
+FROM Product
+WHERE type='Laptop')
+GROUP BY maker
 ```
 ### Задание: 9
 Найдите производителей ПК с процессором не менее 450 Мгц. Вывести: Maker
