@@ -118,6 +118,30 @@ HAVING COUNT(model) > = 2
 ```
 ### Задание: 16
 Найдите пары моделей PC, имеющих одинаковые скорость и RAM. В результате каждая пара указывается только один раз, т.е. (i,j), но не (j,i), Порядок вывода: модель с большим номером, модель с меньшим номером, скорость и RAM.
+```sql
+```
+### Задание: 17
+Найдите модели ПК-блокнотов, скорость которых меньше скорости каждого из ПК.
+Вывести: type, model, speed
+```sql
+SELECT DISTINCT Product.type, Laptop.model, speed
+FROM Product, Laptop
+WHERE type = 'Laptop' AND Laptop.speed < ALL (SELECT speed 
+FROM PC)
+```
+### Задание: 18
+Найдите производителей самых дешевых цветных принтеров. Вывести: maker, price
+```sql
+SELECT distinct maker, price
+FROM Product  INNER JOIN 
+Printer ON Printer.model = Product.model
+WHERE price = (SELECT MIN(price) FROM Printer WHERE color = 'y') AND color = 'y'
+```
+### Задание: 19
+Для каждого производителя, имеющего модели в таблице Laptop, найдите средний размер экрана выпускаемых им ПК-блокнотов.
+Вывести: maker, средний размер экрана.
+```sql
+```
 
 
 
