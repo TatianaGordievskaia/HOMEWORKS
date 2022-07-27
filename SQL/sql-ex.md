@@ -47,6 +47,20 @@ WHERE Laptop.hd >= 10;
 ### Задание: 7
 Найдите номера моделей и цены всех имеющихся в продаже продуктов (любого типа) производителя B (латинская буква).
 ```sql
+SELECT Product.model, price
+FROM PC INNER JOIN   
+     Product ON PC.model = Product.model
+WHERE maker='B'
+UNION
+SELECT Product.model, price 
+FROM Laptop INNER JOIN   
+     Product ON Laptop.model = Product.model
+WHERE maker='B'
+UNION
+SELECT Product.model, price 
+FROM Printer INNER JOIN   
+     Product ON Printer.model = Product.model
+WHERE maker='B'
 ```
 ### Задание: 8
 Найдите производителя, выпускающего ПК, но не ПК-блокноты.
