@@ -1,5 +1,6 @@
+![](https://migsoft.ru/upload/iblock/ef4/ef44f3506c827eef392c01df91453755.png)
+
 # _HOMEWORK 1 _
-## in DBeaver
 
  1.  Вывести все поля и все строки.
 ```sql
