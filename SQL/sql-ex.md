@@ -54,7 +54,7 @@ WHERE maker='B'
 UNION
 SELECT Product.model, price 
 FROM Laptop INNER JOIN   
-     Product ON Laptop.model = Product.model
+Product ON Laptop.model = Product.model
 WHERE maker='B'
 UNION
 SELECT Product.model, price 
@@ -119,6 +119,9 @@ HAVING COUNT(model) > = 2
 ### Задание: 16
 Найдите пары моделей PC, имеющих одинаковые скорость и RAM. В результате каждая пара указывается только один раз, т.е. (i,j), но не (j,i), Порядок вывода: модель с большим номером, модель с меньшим номером, скорость и RAM.
 ```sql
+SELECT DISTINCT a.model, b.model, a.speed, a.ram 
+FROM pc AS a, pc AS b
+WHERE a.ram = b.ram AND a.speed = b.speed AND a.model > b.model
 ```
 ### Задание: 17
 Найдите модели ПК-блокнотов, скорость которых меньше скорости каждого из ПК.
@@ -169,6 +172,10 @@ GROUP BY maker
 ### Задание: 22
 Для каждого значения скорости ПК, превышающего 600 МГц, определите среднюю цену ПК с такой же скоростью. Вывести: speed, средняя цена.
 ```sql
+SELECT speed, AVG(price)
+FROM PC
+WHERE speed > 600
+GROUP BY speed
 ```
 ### Задание: 23
 Найдите производителей, которые производили бы как ПК
