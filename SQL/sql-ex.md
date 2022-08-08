@@ -135,7 +135,7 @@ FROM PC)
 ### Задание: 18
 Найдите производителей самых дешевых цветных принтеров. Вывести: maker, price
 ```sql
-SELECT distinct maker, price
+SELECT DISTINCT maker, price
 FROM Product  INNER JOIN 
 Printer ON Printer.model = Product.model
 WHERE price = (SELECT MIN(price) FROM Printer WHERE color = 'y') AND color = 'y'
@@ -182,6 +182,10 @@ GROUP BY speed
 со скоростью не менее 750 МГц, так и ПК-блокноты со скоростью не менее 750 МГц.
 Вывести: Maker
 ```sql
+SELECT DISTINCT maker 
+FROM product
+INNER JOIN pc on product.model = pc.model 
+WHERE speed >= 750 and maker IN (SELECT DISTINCT maker FROM product INNER JOIN laptop on product.model = laptop.model WHERE speed >= 750)
 ```
 ### Задание: 24
 Перечислите номера моделей любых типов, имеющих самую высокую цену по всей имеющейся в базе данных продукции.
