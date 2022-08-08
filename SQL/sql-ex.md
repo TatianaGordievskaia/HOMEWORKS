@@ -185,7 +185,8 @@ GROUP BY speed
 SELECT DISTINCT maker 
 FROM product
 INNER JOIN pc on product.model = pc.model 
-WHERE speed >= 750 and maker IN (SELECT DISTINCT maker FROM product INNER JOIN laptop on product.model = laptop.model WHERE speed >= 750)
+WHERE speed >= 750 AND maker 
+IN (SELECT DISTINCT maker FROM product INNER JOIN laptop on product.model = laptop.model WHERE speed >= 750)
 ```
 ### Задание: 24
 Перечислите номера моделей любых типов, имеющих самую высокую цену по всей имеющейся в базе данных продукции.
