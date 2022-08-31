@@ -4,6 +4,11 @@
 </div>
 
 
+### VIDEO my DevTools practice
+### Click           ⬇
+
+[![N|Solid](https://pngimg.com/uploads/google_drive/small/google_drive_PNG4.png)](https://drive.google.com/file/d/1FlJoJzumIq1NZ9FSwrTOzHPQp4u7XASh/view?usp=sharing)
+
  1. Открыть Chrome DevTools
  2. Зайти в панель Elements.
  3. Найти инспектором кнопку Submit и выровнять слово Submit по центру
