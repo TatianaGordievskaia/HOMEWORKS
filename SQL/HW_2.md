@@ -338,3 +338,4 @@ VALUES 	(1, 10),
 	
 SELECT * FROM roles_employee;	
 ```
+![break](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/SQL/qa_ddl.png)
