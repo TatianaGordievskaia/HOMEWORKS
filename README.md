@@ -2,15 +2,21 @@
 
 
 ### Bash / Termanal
-* [Linux terminal](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/Linux%20terminal)
+* [Linux terminal HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/Linux%20terminal)
     
 ### GIT
-* [GITBASH](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/GITBASH)
-* [JSON](https://github.com/TatianaGordievskaia/JSON)
-* [XML](https://github.com/TatianaGordievskaia/XML)  
+* [GITBASH HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/GITBASH)
+* [JSON HW](https://github.com/TatianaGordievskaia/JSON)
+* [XML HW](https://github.com/TatianaGordievskaia/XML)  
 ### Postman 
-* [POSTMAN](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/POSTMAN) 
+* [POSTMAN HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/POSTMAN) 
 ### JAVASCRIPT
-* [JAVASCRIPT](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/JAVASCRIPT)
+* [JAVASCRIPT HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/JAVASCRIPT)
 ### SQL
-* [SQL](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/SQL)
+* [SQL HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/SQL)
+### DEVTOOLS
+* [DEVTOOLS HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/DEVTOOLS)
+### CHARLES
+* [CHARLES HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/CHARLES)
+
+
