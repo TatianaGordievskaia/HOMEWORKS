@@ -15,7 +15,7 @@ IP: 162.55.220.72
 Port: 5005
 ```
 
-1)``` http://162.55.220.72:5005/get_method```
+1) http://162.55.220.72:5005/get_method
 
 ```sql
 req.
@@ -23,3 +23,78 @@ GET
 name: str
 age: int
 ```
+
+2) http://162.55.220.72:5005/user_info_2
+
+```sql
+req.
+POST
+name: str
+age: int
+salary: int
+```
+
+3) http://162.55.220.72:5005/user_info_3
+```sql
+req.
+POST
+name: str
+age: int
+salary: int
+```
+
+4) http://162.55.220.72:5005/object_info_1
+```sql
+req.
+GET
+name: str
+age: int
+weight: int
+```
+
+5) http://162.55.220.72:5005/object_info_2
+```sql
+req.
+GET
+name: str
+age: int
+salary: int
+```
+
+6) http://162.55.220.72:5005/object_info_3
+```sql
+req.
+GET
+name: str
+age: int
+salary: int
+```
+
+7) http://162.55.220.72:5005/object_info_4
+```sql
+req.
+GET
+name: str
+age: int
+salary: int
+```
+
+## HW_2 Jmeter
+
+### Jmeter_scripts
+
+#### JSON Extractor:
+token
+$.token
+1
+——
+
+#### BeanShell Assertion:
+${__setProperty(token,${token})}
+——
+
+
+#### BeanShell PreProcessor:
+
+String auth_token = props.get("token");
+vars.put("token", auth_token);
