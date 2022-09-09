@@ -18,5 +18,7 @@
 * [DEVTOOLS HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/DEVTOOLS)
 ### CHARLES
 * [CHARLES HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/CHARLES)
+### JMETER
+* [JMETER HW](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/JMETER)
 
 
