@@ -130,5 +130,10 @@ Resp.
 #### Задание ***
 0) Изучать как работают Response Assertion.
 1) Сделать Assertion на провекрку статус код 200
-2) Сделать Assertion на провекрку 'salary': salary
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/1_get_test_user.png)
+
+3) Сделать Assertion на провекрку 'salary': salary
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/2_get_test_user.png)
+или
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/3_get_test_user.png)
 
