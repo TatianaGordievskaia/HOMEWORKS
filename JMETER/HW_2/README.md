@@ -71,7 +71,8 @@ Resp.
 #### Действия:
 Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/new_data
 
-
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/1_new_data.png)
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/2_new_data.png)
 
 #### 3) http://162.55.220.72:5005/test_pet_info
 
