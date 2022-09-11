@@ -50,6 +50,8 @@ resp.
 #### Действия:
 Достать из Respose значение из поля 'qa_salary_after_6_months' и передать в поле salary запроса http://162.55.220.72:5005/new_data
 
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/1_user_info.png)
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/2_user_info.png)
 
 #### 2) http://162.55.220.72:5005/new_data
 
