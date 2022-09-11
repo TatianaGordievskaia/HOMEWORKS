@@ -101,10 +101,12 @@ Resp.
 #### Задание ***
 0) Изучать как работают Response Assertion.
 1) Сделать Assertion на провекрку статус код 200
-2) Сделать Assertion на провекрку 'daily_food':weight * 0.012
-
 ![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/3_test_pet_info.png)
+
+2) Сделать Assertion на провекрку 'daily_food':weight * 0.012
 ![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/4_test_pet_info.png)
+или
+![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/5_test_pet_info.png)
 
 #### 4) http://162.55.220.72:5005/get_test_user
 
