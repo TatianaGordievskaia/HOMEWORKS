@@ -1,3 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
 get_method,50,131,109,269,"22,73","0,000%","4,53556","0,74","0,65","168,0"
 user_info_2,50,164,110,1157,"155,91","0,000%","4,52612","2,05","1,08","463,0"
 user_info_3,50,160,110,1142,"151,84","0,000%","4,52489","1,63","1,07","368,0"
