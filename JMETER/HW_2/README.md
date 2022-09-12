@@ -69,7 +69,7 @@ Resp.
   'salary': [salary, str(salary*2), str(salary*3)]}
 ```
 #### Действия:
-Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/new_data
+Достать из Respose значение из поля 'name' и передать в поле name запроса http://162.55.220.72:5005/test_pet_info
 
 ![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/1_new_data.png)
 ![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/2_new_data.png)
