@@ -10,3 +10,6 @@
 * [HW_1 Jmeter](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/JMETER/HW_1)
 * [HW_2 Jmeter](https://github.com/TatianaGordievskaia/HOMEWORKS/tree/main/JMETER/HW_2)
 
+
+
+
