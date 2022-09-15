@@ -137,3 +137,6 @@ Resp.
 или
 ![](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/screenshots/3_get_test_user.png)
 
+## Final reports
+* [Report csv](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/HW_2.csv)
+* [Report jmx](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_2/HW_2.jmx)
