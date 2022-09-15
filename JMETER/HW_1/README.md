@@ -75,3 +75,7 @@ name: str
 age: int
 salary: int
 ```
+## Final reports
+* [Report 50 samples](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_1/HW_1_50_samples.csv)
+* [Report 250 samples](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_1/HW_1_250_samples.csv)
+* [Report 500 samples](https://github.com/TatianaGordievskaia/HOMEWORKS/blob/main/JMETER/HW_1/HW_1_500_samples.csv)
